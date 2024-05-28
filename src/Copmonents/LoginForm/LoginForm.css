@@ -14,6 +14,12 @@
   text-align: center;
 }
 
+.wrapper h1:hover {
+  color: rgb(34, 137, 193);
+  font-size: 40px;
+  transition-duration: 0.3s;
+}
+
 .wrapper .input-box {
   position: relative;
   width: 100%;
@@ -45,12 +51,19 @@
   forn-size: 16px;
 }
 
+.input-box .icon:hover {
+  color: rgb(34, 137, 193);
+}
+
 .wrapper .remember-forgot {
   display: flex;
   justify-content: space-between;
   font-size: 14.5px;
   margin: -15px 0 15px;
 }
+/* .wrapper .remember-forgot:hover {
+  color: rgb(34, 137, 193);
+} */
 
 .remember-forgot label input {
   accent-color: #fff;
@@ -78,6 +91,13 @@
   font-size: 16px;
   color: #333;
   font-weight: 700;
+}
+.wrapper button:hover {
+  background-color: rgb(34, 137, 193);
+  color: white;
+  width: 98%;
+  height: 44px;
+  transition-duration: 0.3s;
 }
 
 .wrapper .register-link {
