@@ -55,6 +55,11 @@
   color: rgb(34, 137, 193);
 }
 
+h1 .icon1 {
+  margin-top: 10px;
+  forn-size: 16px;
+}
+
 .wrapper .remember-forgot {
   display: flex;
   justify-content: space-between;
